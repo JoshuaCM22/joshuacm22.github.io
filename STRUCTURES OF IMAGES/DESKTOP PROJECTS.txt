@@ -1,0 +1,26 @@
+TOP DEKSTOP - The Diamonds and Treasure
+Student Gate Access System (with RFID and SMS Notification)
+Magno Hardware (Sales and Inventory System)
+My Snake Game
+Folder Creator
+Book Monitoring System (with RFID)
+CS-24 Project
+Save The Eggs Game
+Flappy Bird Game
+Kill All Zombies Game
+Space Shooter Game
+College Library System
+SMALL DEKSTOP - Tic-Tac-Toe Game
+Number Guessing Game
+Trivia Quiz Game
+Popping Balloons Game
+Simple CRUD in VB.Net and MySQL
+Simple CRUD in VB.Net and MS Access
+Simple CRUD in C# and MySQL
+Simple CRUD in C# and MS Access
+Simple CRUD in Java and MySQL
+Simple CRUD in Java and MS Access
+My Simple Calculator in VB.Net
+My Simple Calculator in C#
+My Simple Calculator in Java
+Case Converter
