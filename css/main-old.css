@@ -481,17 +481,17 @@ body > article {
   color: inherit;
 }
 
-#webProjects {
+#desktopOldProjects {
   background-color: #0063b2ff;
 }
-#webProjects h2 {
+#desktopOldProjects h2 {
   color: #fff;
 }
 
-#desktopProjects {
+#webOldProjects {
   background-color: #f2f4f4;
 }
-#desktopProjects h2 {
+#webOldProjects h2 {
   color: #000;
 }
 
@@ -517,13 +517,6 @@ body > article {
   font-weight: normal;
   font-size: 28px;
 }
-
-.border{
-  border: 5px solid #555;
-  height: 270px; 
-  cursor: pointer;
-}
-
 
 /* Extra Large */
 @media screen and (max-width: 1680px) {
