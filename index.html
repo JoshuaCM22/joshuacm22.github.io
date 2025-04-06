@@ -25,7 +25,7 @@ function showLoadingModal(){
     text: 'INITIALIZING ...',
     color: '#fff',
     opacity:'3.0',
-    backgroundColor: getRandomColor(),
+    backgroundColor: "#0063b2ff",
     animation: getRandomAnimation()
 });
 
@@ -55,21 +55,6 @@ function getRandomAnimation(){
   return animations[generatedIndex];
 }
 
-function getRandomColor(){
-  const colors = [
-    "#FF0000",
-    "blue",
-    "green",
-    "#B7950B",
-    "#566573",
-    "#7D3C98",
-    "#8E44AD"
-  ];
-
-  let indexLength =  colors.length - 1;
-  let generatedIndex = getRandomNumber(0, indexLength);
-  return colors[generatedIndex];
-}
 
 function getRandomNumber (min_num, max_num){
   return Math.floor(Math.random()* (max_num - min_num) + min_num);
