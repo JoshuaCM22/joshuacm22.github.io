@@ -26,7 +26,7 @@ function showLoadingModal(){
     color: '#fff',
     opacity:'3.0',
     backgroundColor: "#0063b2ff",
-    animation: getRandomAnimation()
+    animation: "rotatingPlane"
 });
 
 setTimeout(
@@ -34,30 +34,6 @@ setTimeout(
    window.location.href = 'me.html';
   } ,3000
   );
-}
-
-function getRandomAnimation(){
-  const animations = [
-    "rotatingPlane",
-    "wave",
-    "wanderingCubes",
-    "spinner",
-    "chasingDots",
-    "threeBounce",
-    "circle",
-    "cubeGrid",
-    "fadingCircle",
-    "foldingCube",
-  ];
-
-  let indexLength =  animations.length - 1;
-  let generatedIndex = getRandomNumber(0, indexLength);
-  return animations[generatedIndex];
-}
-
-
-function getRandomNumber (min_num, max_num){
-  return Math.floor(Math.random()* (max_num - min_num) + min_num);
 }
 
 showLoadingModal();
