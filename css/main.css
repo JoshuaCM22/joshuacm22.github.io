@@ -347,7 +347,7 @@ article > :last-child, article:last-child {
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 100%;
-  padding: 1em 0 1em 0;
+  /* padding: 1em 0 1em 0; */
 }
 .button:hover {
   background-color: #0482e9;
@@ -359,8 +359,7 @@ article > :last-child, article:last-child {
 }
 
 .button.large {
-  font-size: 1.2em;
-  letter-spacing: 0;
+  font-size: 1.5em;
 }
 
 ul {
