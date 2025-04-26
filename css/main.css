@@ -342,9 +342,12 @@ article > :last-child, article:last-child {
   overflow: hidden;
   background-color: #0063b2ff;
   padding: 1em 2.35em 1em 2.35em;
-  font-size: 1.1em;
+  font-size: 1.2em;
   max-width: 24em;
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  padding: 1em 0 1em 0;
 }
 .button:hover {
   background-color: #0482e9;
@@ -354,9 +357,10 @@ article > :last-child, article:last-child {
   background-color: #0482e9;
   top: 1px;
 }
+
 .button.large {
-  font-size: 1.5em;
-  letter-spacing: -0.025em;
+  font-size: 1.2em;
+  letter-spacing: 0;
 }
 
 ul {
@@ -1418,17 +1422,6 @@ h4 {
     max-width: 32em;
     margin-left: auto !important;
     margin-right: auto !important;
-  }
-
-  .button {
-    text-align: center;
-    font-size: 1.2em;
-    width: 100%;
-    padding: 1em 0 1em 0;
-  }
-  .button.large {
-    font-size: 1.2em;
-    letter-spacing: 0;
   }
 
   article {
