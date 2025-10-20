@@ -1873,3 +1873,14 @@ body>article {
     font-size: 16px;
   }
 }
+
+
+.defaultHomeTextStyles{
+  line-height: 1.2;
+  font-style: normal; 
+  font-weight: 400;
+}
+
+.fontWeightToBold{
+  font-weight: bold;
+}
