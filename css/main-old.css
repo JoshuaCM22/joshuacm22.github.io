@@ -1450,3 +1450,30 @@ h4 {
     font-size: 16px;
   }
 }
+
+body.js-center-reveal .reveal-on-center {
+  opacity: 0;
+  transform: translate3d(0, 80px, 0) scale(0.94);
+  filter: blur(10px);
+  transition:
+    opacity 0.75s ease,
+    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.75s ease;
+  will-change: opacity, transform, filter;
+}
+
+body.js-center-reveal .reveal-on-center.is-revealed {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+  filter: blur(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.js-center-reveal .reveal-on-center,
+  body.js-center-reveal .reveal-on-center.is-revealed {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+}
